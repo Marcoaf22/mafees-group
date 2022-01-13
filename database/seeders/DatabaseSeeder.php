@@ -28,6 +28,7 @@ class DatabaseSeeder extends Seeder
             ProductoSeeder::class,
         ]);
 
-        User::created(['name' => 'marco', 'email' => 'marco@gmail.com', 'password' => Hash::make('password')]);
+        User::create(['name' => 'marco', 'email' => 'marco@gmail.com', 'password' => Hash::make('password')]);
+        User::create(['name' => 'alejandro', 'email' => 'alejandro@gmail.com', 'password' => Hash::make('12345678')]);
     }
 }

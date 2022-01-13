@@ -23,6 +23,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.507278620110142,
             'longitud' => -63.16436908793301,
             'numero_uso' => 2,
+            'imagen' => 'tanque1',
             'estado_id' => 1,
             'almacen_id' => 1
         ]);
@@ -35,6 +36,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.507278620110142,
             'longitud' => -63.16436908793301,
             'numero_uso' => 3,
+            'imagen' => 'tanque2',
             'estado_id' => 2,
             'almacen_id' => 1
         ]);
@@ -46,6 +48,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.507278620110142,
             'longitud' => -63.16436908793301,
             'numero_uso' => 0,
+            'imagen' => 'tanque3',
             'estado_id' => 1,
             'almacen_id' => 1
         ]);
@@ -59,6 +62,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8000968640125,
             'longitud' => -62.92066139070278,
             'numero_uso' => 0,
+            'imagen' => 'tanque4',
             'estado_id' => 1,
             'almacen_id' => 2
         ]);
@@ -70,6 +74,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8000968640125,
             'longitud' => -62.92066139070278,
             'numero_uso' => 0,
+            'imagen' => 'tanque1',
             'estado_id' => 1,
             'almacen_id' => 2
         ]);
@@ -81,6 +86,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8000968640125,
             'longitud' => -62.92066139070278,
             'numero_uso' => 0,
+            'imagen' => 'tanque2',
             'estado_id' => 1,
             'almacen_id' => 2
         ]);
@@ -92,6 +98,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8000968640125,
             'longitud' => -62.92066139070278,
             'numero_uso' => 0,
+            'imagen' => 'tanque3',
             'estado_id' => 1,
             'almacen_id' => 2
         ]);
@@ -103,6 +110,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8000968640125,
             'longitud' => -62.92066139070278,
             'numero_uso' => 0,
+            'imagen' => 'tanque4',
             'estado_id' => 1,
             'almacen_id' => 2
         ]);
@@ -116,6 +124,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8971208772702,
             'longitud' => -63.333327477396885,
             'numero_uso' => 0,
+            'imagen' => 'tanque1',
             'estado_id' => 1,
             'almacen_id' => 3
         ]);
@@ -127,6 +136,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8971208772702,
             'longitud' => -63.333327477396885,
             'numero_uso' => 0,
+            'imagen' => 'tanque2',
             'estado_id' => 1,
             'almacen_id' => 3
         ]);
@@ -138,6 +148,7 @@ class TanqueSeeder extends Seeder
             'latitud' => -17.8971208772702,
             'longitud' => -63.333327477396885,
             'numero_uso' => 0,
+            'imagen' => 'tanque3',
             'estado_id' => 1,
             'almacen_id' => 3
         ]);

@@ -24,6 +24,7 @@ class Tanque extends Model
         'latitud',
         'observacion',
         'longitud',
+        'imagen',
         'numero_uso',
         'estado_id',
         'almacen_id'

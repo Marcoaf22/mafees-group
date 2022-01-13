@@ -38,6 +38,7 @@
                             <th>Alto</th>
                             <th>Numero de Usos</th>
                             <th>Almacen</th>
+                            <th>Imagen</th>
                             <th>Estado</th>
                             <th style="width: 10%">Accion</th>
                         </thead>
@@ -83,6 +84,7 @@
       {data: 'alto', name: 'alto'},
       {data: 'numero_uso', name: 'numero_uso'},
       {data: 'almacen_id', name: 'almacen_id'},
+      {data: 'imagen', name: 'imagen'},
       {data: 'estado_id', name: 'estado_id'},
       {data: 'accion', name: 'accion',searchable: false, orderable:false},
       ],

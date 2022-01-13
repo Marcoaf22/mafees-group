@@ -21,6 +21,9 @@ class TanqueController extends Controller
                 ->editColumn('almacen_id', function ($row) {
                     return $row->almacen->nombre;
                 })
+                ->addColumn('img', function ($row) {
+                    return "<div class='d-flex justify-content-center flex-nowrap'><img class='img-circle' style='width: 80px' src='" . asset('tanques/' . $row->imagen . '.png') . "' alt=''></div>";
+                })
                 ->editColumn('estado_id', function ($row) {
                     $nombreEstado = "";
                     if ($row->estado_id == 1) {
@@ -49,7 +52,7 @@ class TanqueController extends Controller
                     // }
                     return $action;
                 })
-                ->rawColumns(['accion', 'estado_id'])
+                ->rawColumns(['accion', 'estado_id', 'imagen'])
                 ->make(true);
             return $datos;
         }

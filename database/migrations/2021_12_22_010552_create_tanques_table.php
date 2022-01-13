@@ -23,6 +23,7 @@ class CreateTanquesTable extends Migration
             $table->string('observacion', 150)->nullable();
             $table->double('latitud', 17, 15);
             $table->double('longitud', 17, 15);
+            $table->string('imagen', 10);
             $table->unsignedBigInteger('estado_id');
             $table->unsignedBigInteger('almacen_id');
             $table->timestamps();
